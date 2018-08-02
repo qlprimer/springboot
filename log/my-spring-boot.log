@@ -3616,3 +3616,180 @@ Caused by: org.springframework.util.InvalidMimeTypeException: Invalid mime type 
 2018-08-01 17:46:58,067:INFO http-nio-8088-exec-1 (LoginIntercept.java:19) - LoginIntercept====
 2018-08-01 17:53:11,750:INFO http-nio-8088-exec-3 (LoginIntercept.java:19) - LoginIntercept====
 2018-08-01 17:53:16,212:INFO http-nio-8088-exec-4 (LoginIntercept.java:19) - LoginIntercept====
+2018-08-02 13:04:09,761:INFO restartedMain (StartupInfoLogger.java:50) - Starting SpringbootApplication on DESKTOP-JE0N9NR with PID 12228 (E:\IDEAWorkSpace\springboot\target\classes started by qinlei in E:\IDEAWorkSpace\springboot)
+2018-08-02 13:04:09,766:INFO restartedMain (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-08-02 13:04:09,852:INFO restartedMain (AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41960521: startup date [Thu Aug 02 13:04:09 CST 2018]; root of context hierarchy
+2018-08-02 13:04:11,713:INFO restartedMain (TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+2018-08-02 13:04:11,731:INFO restartedMain (DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:04:11,741:INFO restartedMain (DirectJDKLog.java:180) - Starting service [Tomcat]
+2018-08-02 13:04:11,741:INFO restartedMain (DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-02 13:04:11,745:INFO localhost-startStop-1 (DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\apache-maven-3.5.4\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\qinlei\AppData\Local\Microsoft\WindowsApps;;C:\Users\qinlei\AppData\Local\Programs\Fiddler;C:\Program Files (x86)\Nmap;.]
+2018-08-02 13:04:43,594:INFO restartedMain (StartupInfoLogger.java:50) - Starting SpringbootApplication on DESKTOP-JE0N9NR with PID 21472 (E:\IDEAWorkSpace\springboot\target\classes started by qinlei in E:\IDEAWorkSpace\springboot)
+2018-08-02 13:04:43,598:INFO restartedMain (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-08-02 13:04:43,655:INFO restartedMain (AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6981ecee: startup date [Thu Aug 02 13:04:43 CST 2018]; root of context hierarchy
+2018-08-02 13:04:44,974:INFO restartedMain (TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+2018-08-02 13:04:44,985:INFO restartedMain (DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:04:44,993:INFO restartedMain (DirectJDKLog.java:180) - Starting service [Tomcat]
+2018-08-02 13:04:44,993:INFO restartedMain (DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-02 13:04:44,997:INFO localhost-startStop-1 (DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\apache-maven-3.5.4\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\qinlei\AppData\Local\Microsoft\WindowsApps;;C:\Users\qinlei\AppData\Local\Programs\Fiddler;C:\Program Files (x86)\Nmap;.]
+2018-08-02 13:04:45,094:INFO localhost-startStop-1 (DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+2018-08-02 13:04:45,094:INFO localhost-startStop-1 (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1441 ms
+2018-08-02 13:04:45,261:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+2018-08-02 13:04:45,263:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet statViewServlet mapped to [/druid/*]
+2018-08-02 13:04:45,265:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 13:04:45,265:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 13:04:45,266:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 13:04:45,266:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 13:04:45,266:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-02 13:04:45,333:INFO restartedMain (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2018-08-02 13:04:46,442:INFO restartedMain (DruidDataSource.java:930) - {dataSource-1} inited
+2018-08-02 13:04:46,669:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:04:46,848:INFO restartedMain (RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6981ecee: startup date [Thu Aug 02 13:04:43 CST 2018]; root of context hierarchy
+2018-08-02 13:04:46,894:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/index]}" onto public java.lang.String com.qlprimer.springboot.Controller.ShowDataBase.index(org.springframework.ui.Model)
+2018-08-02 13:04:46,895:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/show]}" onto public java.util.List<com.qlprimer.springboot.Entity.User> com.qlprimer.springboot.Controller.ShowDataBase.show()
+2018-08-02 13:04:46,897:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/send/sendmessage]}" onto private java.lang.String com.qlprimer.springboot.Controller.WebSocketSendMessage.SendMessage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession) throws java.io.IOException
+2018-08-02 13:04:46,900:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 13:04:46,900:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 13:04:46,924:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:04:46,924:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:04:47,014:INFO restartedMain (WelcomePageHandlerMapping.java:61) - Adding welcome page template: index
+2018-08-02 13:04:47,203:INFO restartedMain (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2018-08-02 13:04:47,237:INFO restartedMain (ServerEndpointExporter.java:153) - Registering @ServerEndpoint class: class com.qlprimer.springboot.WebSocket.WebSocketService
+2018-08-02 13:04:47,244:INFO restartedMain (MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+2018-08-02 13:04:47,246:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-08-02 13:04:47,246:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 13:04:47,251:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-08-02 13:04:47,252:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-08-02 13:04:47,263:INFO restartedMain (DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:04:47,272:INFO restartedMain (DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+2018-08-02 13:04:47,285:INFO restartedMain (TomcatWebServer.java:206) - Tomcat started on port(s): 8088 (http) with context path ''
+2018-08-02 13:04:47,289:INFO restartedMain (StartupInfoLogger.java:59) - Started SpringbootApplication in 3.988 seconds (JVM running for 5.2)
+2018-08-02 13:04:56,859:INFO http-nio-8088-exec-1 (DirectJDKLog.java:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-02 13:04:56,859:INFO http-nio-8088-exec-1 (FrameworkServlet.java:494) - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-02 13:04:56,879:INFO http-nio-8088-exec-1 (FrameworkServlet.java:509) - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-08-02 13:04:56,893:INFO http-nio-8088-exec-1 (LoginIntercept.java:19) - LoginIntercept====
+2018-08-02 13:06:14,441:INFO Thread-14 (AbstractApplicationContext.java:993) - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6981ecee: startup date [Thu Aug 02 13:04:43 CST 2018]; root of context hierarchy
+2018-08-02 13:06:14,445:INFO Thread-14 (MBeanExporter.java:451) - Unregistering JMX-exposed beans on shutdown
+2018-08-02 13:06:14,446:INFO Thread-14 (MBeanRegistrationSupport.java:183) - Unregistering JMX-exposed beans
+2018-08-02 13:06:14,490:INFO Thread-14 (DruidDataSource.java:1825) - {dataSource-1} closed
+2018-08-02 13:06:15,001:INFO restartedMain (StartupInfoLogger.java:50) - Starting SpringbootApplication on DESKTOP-JE0N9NR with PID 21472 (E:\IDEAWorkSpace\springboot\target\classes started by qinlei in E:\IDEAWorkSpace\springboot)
+2018-08-02 13:06:15,001:INFO restartedMain (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-08-02 13:06:15,004:INFO restartedMain (AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69dc22f: startup date [Thu Aug 02 13:06:15 CST 2018]; root of context hierarchy
+2018-08-02 13:06:15,675:INFO restartedMain (TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+2018-08-02 13:06:15,676:INFO restartedMain (DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:06:15,676:INFO restartedMain (DirectJDKLog.java:180) - Starting service [Tomcat]
+2018-08-02 13:06:15,676:INFO restartedMain (DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-02 13:06:15,767:INFO localhost-startStop-1 (DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+2018-08-02 13:06:15,767:INFO localhost-startStop-1 (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 763 ms
+2018-08-02 13:06:15,807:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+2018-08-02 13:06:15,809:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet statViewServlet mapped to [/druid/*]
+2018-08-02 13:06:15,809:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 13:06:15,809:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 13:06:15,809:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 13:06:15,809:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 13:06:15,810:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-02 13:06:15,825:INFO restartedMain (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2018-08-02 13:06:16,514:INFO restartedMain (DruidDataSource.java:930) - {dataSource-2} inited
+2018-08-02 13:06:16,559:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:06:16,614:INFO restartedMain (RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69dc22f: startup date [Thu Aug 02 13:06:15 CST 2018]; root of context hierarchy
+2018-08-02 13:06:16,624:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 13:06:16,624:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 13:06:16,636:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:06:16,637:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:06:16,660:INFO restartedMain (WelcomePageHandlerMapping.java:61) - Adding welcome page template: index
+2018-08-02 13:06:16,711:INFO restartedMain (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2018-08-02 13:06:16,739:INFO restartedMain (MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+2018-08-02 13:06:16,740:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-08-02 13:06:16,740:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 13:06:16,743:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-08-02 13:06:16,744:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-08-02 13:06:16,749:INFO restartedMain (DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:06:16,752:INFO restartedMain (DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+2018-08-02 13:06:16,756:INFO restartedMain (TomcatWebServer.java:206) - Tomcat started on port(s): 8088 (http) with context path ''
+2018-08-02 13:06:16,757:INFO restartedMain (StartupInfoLogger.java:59) - Started SpringbootApplication in 1.858 seconds (JVM running for 94.668)
+2018-08-02 13:06:16,760:INFO restartedMain (ConditionEvaluationDeltaLoggingListener.java:56) - Condition evaluation unchanged
+2018-08-02 13:06:50,179:INFO Thread-23 (AbstractApplicationContext.java:993) - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69dc22f: startup date [Thu Aug 02 13:06:15 CST 2018]; root of context hierarchy
+2018-08-02 13:06:50,180:INFO Thread-23 (MBeanExporter.java:451) - Unregistering JMX-exposed beans on shutdown
+2018-08-02 13:06:50,181:INFO Thread-23 (MBeanRegistrationSupport.java:183) - Unregistering JMX-exposed beans
+2018-08-02 13:06:50,187:INFO Thread-23 (DruidDataSource.java:1825) - {dataSource-2} closed
+2018-08-02 13:06:50,655:INFO restartedMain (StartupInfoLogger.java:50) - Starting SpringbootApplication on DESKTOP-JE0N9NR with PID 21472 (E:\IDEAWorkSpace\springboot\target\classes started by qinlei in E:\IDEAWorkSpace\springboot)
+2018-08-02 13:06:50,655:INFO restartedMain (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-08-02 13:06:50,658:INFO restartedMain (AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c60e1a8: startup date [Thu Aug 02 13:06:50 CST 2018]; root of context hierarchy
+2018-08-02 13:06:51,748:INFO restartedMain (TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+2018-08-02 13:06:51,749:INFO restartedMain (DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:06:51,749:INFO restartedMain (DirectJDKLog.java:180) - Starting service [Tomcat]
+2018-08-02 13:06:51,750:INFO restartedMain (DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-02 13:06:51,775:INFO localhost-startStop-1 (DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+2018-08-02 13:06:51,775:INFO localhost-startStop-1 (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1117 ms
+2018-08-02 13:06:51,805:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+2018-08-02 13:06:51,806:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet statViewServlet mapped to [/druid/*]
+2018-08-02 13:06:51,806:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 13:06:51,806:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 13:06:51,806:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 13:06:51,806:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 13:06:51,807:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-02 13:06:51,823:INFO restartedMain (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2018-08-02 13:06:52,491:INFO restartedMain (DruidDataSource.java:930) - {dataSource-3} inited
+2018-08-02 13:06:52,537:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:06:52,614:INFO restartedMain (RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c60e1a8: startup date [Thu Aug 02 13:06:50 CST 2018]; root of context hierarchy
+2018-08-02 13:06:52,630:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 13:06:52,630:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 13:06:52,648:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:06:52,648:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:06:52,704:INFO restartedMain (WelcomePageHandlerMapping.java:61) - Adding welcome page template: index
+2018-08-02 13:06:52,750:INFO restartedMain (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2018-08-02 13:06:52,786:INFO restartedMain (MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+2018-08-02 13:06:52,787:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-08-02 13:06:52,787:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 13:06:52,789:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-08-02 13:06:52,790:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-08-02 13:06:52,794:INFO restartedMain (DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:06:52,795:INFO restartedMain (DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+2018-08-02 13:06:52,798:INFO restartedMain (TomcatWebServer.java:206) - Tomcat started on port(s): 8088 (http) with context path ''
+2018-08-02 13:06:52,799:INFO restartedMain (StartupInfoLogger.java:59) - Started SpringbootApplication in 2.19 seconds (JVM running for 130.71)
+2018-08-02 13:06:52,801:INFO restartedMain (ConditionEvaluationDeltaLoggingListener.java:56) - Condition evaluation unchanged
+2018-08-02 13:07:23,162:INFO restartedMain (StartupInfoLogger.java:50) - Starting SpringbootApplication on DESKTOP-JE0N9NR with PID 7956 (E:\IDEAWorkSpace\springboot\target\classes started by qinlei in E:\IDEAWorkSpace\springboot)
+2018-08-02 13:07:23,168:INFO restartedMain (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-08-02 13:07:23,229:INFO restartedMain (AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f93d57a: startup date [Thu Aug 02 13:07:23 CST 2018]; root of context hierarchy
+2018-08-02 13:07:25,254:INFO restartedMain (TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+2018-08-02 13:07:25,268:INFO restartedMain (DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:07:25,278:INFO restartedMain (DirectJDKLog.java:180) - Starting service [Tomcat]
+2018-08-02 13:07:25,279:INFO restartedMain (DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-02 13:07:25,283:INFO localhost-startStop-1 (DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Java\jdk1.8.0_172\jre\bin;C:\apache-maven-3.5.4\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\qinlei\AppData\Local\Microsoft\WindowsApps;;C:\Users\qinlei\AppData\Local\Programs\Fiddler;C:\Program Files (x86)\Nmap;.]
+2018-08-02 13:07:25,419:INFO localhost-startStop-1 (DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+2018-08-02 13:07:25,420:INFO localhost-startStop-1 (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2192 ms
+2018-08-02 13:07:25,635:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+2018-08-02 13:07:25,636:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet statViewServlet mapped to [/druid/*]
+2018-08-02 13:07:25,638:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-02 13:07:25,639:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-02 13:07:25,639:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-02 13:07:25,639:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-02 13:07:25,639:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-08-02 13:07:25,702:INFO restartedMain (DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+2018-08-02 13:07:26,834:INFO restartedMain (DruidDataSource.java:930) - {dataSource-1} inited
+2018-08-02 13:07:27,083:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:07:27,264:INFO restartedMain (RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f93d57a: startup date [Thu Aug 02 13:07:23 CST 2018]; root of context hierarchy
+2018-08-02 13:07:27,314:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/index]}" onto public java.lang.String com.qlprimer.springboot.Controller.ShowDataBase.index(org.springframework.ui.Model)
+2018-08-02 13:07:27,315:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/show]}" onto public java.util.List<com.qlprimer.springboot.Entity.User> com.qlprimer.springboot.Controller.ShowDataBase.show()
+2018-08-02 13:07:27,316:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/send/sendmessage]}" onto private java.lang.String com.qlprimer.springboot.Controller.WebSocketSendMessage.SendMessage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession) throws java.io.IOException
+2018-08-02 13:07:27,318:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-02 13:07:27,319:INFO restartedMain (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-02 13:07:27,343:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:07:27,343:INFO restartedMain (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-02 13:07:27,498:INFO restartedMain (FreeMarkerConfigurer.java:131) - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-02 13:07:27,672:INFO restartedMain (OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+2018-08-02 13:07:27,705:INFO restartedMain (ServerEndpointExporter.java:153) - Registering @ServerEndpoint class: class com.qlprimer.springboot.WebSocket.WebSocketService
+2018-08-02 13:07:27,713:INFO restartedMain (MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+2018-08-02 13:07:27,714:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-08-02 13:07:27,714:INFO restartedMain (MBeanExporter.java:895) - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-02 13:07:27,718:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-08-02 13:07:27,719:INFO restartedMain (MBeanExporter.java:668) - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-08-02 13:07:27,729:INFO restartedMain (DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8088"]
+2018-08-02 13:07:27,738:INFO restartedMain (DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+2018-08-02 13:07:27,755:INFO restartedMain (TomcatWebServer.java:206) - Tomcat started on port(s): 8088 (http) with context path ''
+2018-08-02 13:07:27,759:INFO restartedMain (StartupInfoLogger.java:59) - Started SpringbootApplication in 4.901 seconds (JVM running for 6.06)
+2018-08-02 13:07:35,139:INFO http-nio-8088-exec-1 (DirectJDKLog.java:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-02 13:07:35,139:INFO http-nio-8088-exec-1 (FrameworkServlet.java:494) - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-02 13:07:35,176:INFO http-nio-8088-exec-1 (FrameworkServlet.java:509) - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-08-02 13:07:35,192:INFO http-nio-8088-exec-1 (LoginIntercept.java:19) - LoginIntercept====
+2018-08-02 13:07:35,302:INFO http-nio-8088-exec-2 (LoginIntercept.java:19) - LoginIntercept====
