@@ -14,7 +14,8 @@ public class SpringBootConfigurer implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginIntercept()).addPathPatterns("/**").excludePathPatterns("/ws");
+        registry.addInterceptor(new LoginIntercept()).addPathPatterns("/**").excludePathPatterns("/ws")
+                .excludePathPatterns("/static/**");
     }
 
     @Override
@@ -22,4 +23,6 @@ public class SpringBootConfigurer implements WebMvcConfigurer {
         registry.addResourceHandler("/**").addResourceLocations("classpath:/static");
 
     }
+
+
 }

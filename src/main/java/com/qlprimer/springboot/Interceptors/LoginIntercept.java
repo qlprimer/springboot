@@ -16,7 +16,8 @@ public class LoginIntercept implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        logger.info("LoginIntercept====");
+
+        logger.info("LoginIntercept===="+request.getRequestURI());
         return true;
     }
 
